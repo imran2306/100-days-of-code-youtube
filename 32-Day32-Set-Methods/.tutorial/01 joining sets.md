@@ -85,7 +85,10 @@ print(cities)
  ```
 
 ## IV. difference() and difference_update():
-The difference() and difference_update() methods prints only items that are only present in the original set and not in both the sets. The difference() method returns a new set whereas difference_update() method updates into the existing set from another set.
+The difference() and difference_update() methods prints only items that are only present in the original set and not in both the sets. It will print items which are available in original set and eliminates items from original set also if items are present in the other sets.
+The difference() method returns a new set whereas difference_update() method updates into the existing set from another set.
+
+
 
 #### Example:
 ```python
